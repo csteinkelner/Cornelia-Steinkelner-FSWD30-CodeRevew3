@@ -9,21 +9,15 @@
 <header>
 	<h1>Insurance <b>Company</b></h1>
 </header>
-<!--<div id="text">
-	<h3>Your Name:</h3> <input type="text" name="">
-	<h3>Age:</h3> <input type="text" name="">
-	<h3>Country:</h3> <input type="text" name="">
-	<h3>Horsepower:</h3> <input type="text" name="">
-</div>-->
-<form action="text" method="get" accept-charset="utf-8">
+<form action="text" method="get" accept-charset="utf-8" id="f">
 	<h3>Your Name:
-	<input type="text" name="" id="text1"></h3>
+	<input type="text" name="" id="text1" placeholder="John Doel"></h3>
 	<h3>Age of Car:
-	<input type="text" name="" id="text2"></h3>
+	<input type="text" name="text2" value="20"></h3>
 	<h3>Country:
-	<input type="text" name="" id="text3"></h3>
+	<input type="text" name="" id="text3" placeholder="Austria"></h3>
 	<h3>Horsepower:
-	<input type="text" name="" id="text4"></h3>
+	<input type="text" name="text4" value="150"></h3>
 </form>
 <button type="submit" onclick="calculateInsurance(name,age,country,horse_power)">calculate</button>
 <footer>
